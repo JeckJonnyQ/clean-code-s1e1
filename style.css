@@ -35,7 +35,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -112,7 +112,6 @@ h3, .task-name[for="new-task"] {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,7 +133,7 @@ h3, .task-name[for="new-task"] {
 }
 
 .task-item>.check-task[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .btn.delete-button .delete-image {
@@ -149,17 +148,18 @@ h3, .task-name[for="new-task"] {
 
 /* Completed */
 .wrapper-task .task-name {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .wrapper-task .task-item .task[type=text] {
-  display: none
+  display: none;
 }
 
 .wrapper-task .task-item.edit-mode .task[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .wrapper-task .task-item.edit-mode .task-name {

@@ -78,7 +78,7 @@ input,
   visibility: hidden;
 }
 
-h2,
+.heading,
 .task-item_name[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -166,7 +166,7 @@ h2,
   display: none;
 }
 
-.tasks-wrapper .task-body.task-body_edit-mode .task-item[type=text] {  
+.tasks-wrapper .task-body.task-body_edit-mode .task-item[type=text] {
   display: inline-block;
   width: 224px;
 }
